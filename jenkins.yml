@@ -3,4 +3,7 @@
   become: yes 
   roles: 
     - jenkins 
-    - nodejs 
+    - nodejs
+- set_fact:
+    ansible_facts:
+      pkg_mgr: yum
