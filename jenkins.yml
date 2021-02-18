@@ -4,6 +4,3 @@
   roles: 
     - jenkins 
     - nodejs
-- set_fact:
-    ansible_facts:
-      pkg_mgr: yum
